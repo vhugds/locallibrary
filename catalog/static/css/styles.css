@@ -1,0 +1,9 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 1;
+    list-style: none;
+  }
+  h1.funny {
+    color: red;
+    background-color: rgb(red, green, blue);
+  }

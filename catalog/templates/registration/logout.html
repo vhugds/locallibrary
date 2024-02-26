@@ -1,0 +1,6 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <p>Logged out!</p>
+  <a href="{% url 'logout' %}?next={{ request.path }}">Logout</a>Click here to login again.</a>
+{% endblock %}
